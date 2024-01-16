@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.TestBase.EntityManagement"/>
+      <class name="org.TestBase.RemoveSeg"/>
+      <class name="org.TestBase.ModelManagement"/>
+      <class name="org.TestBase.RulesPage"/>
+      <class name="org.TestBase.ExplorerPageTest"/>
+      <class name="org.TestBase.Login_TC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
