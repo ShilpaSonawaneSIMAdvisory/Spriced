@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 19 19:26:34 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>765 seconds (765403 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.TestBase.EntityManagement.deleteEntity()'><b>deleteEntity</b><br>Test class: org.TestBase.EntityManagement</td>
+<td></td>
+<td>4</td>
+<td>org.TestBase.EntityManagement@28261e8e</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateBasePriceWithoutChange()'><b>updateBasePriceWithoutChange</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>39</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateSegment()'><b>updateSegment</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>40</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateDNPricingWithoutChange()'><b>updateDNPricingWithoutChange</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>44</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateProductPlanningWithoutChange()'><b>updateProductPlanningWithoutChange</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>47</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateProductPlanning()'><b>updateProductPlanning</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>72</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.Bulkupload_TC.bulkupload()'><b>bulkupload</b><br>Test class: org.TestBase.Bulkupload_TC</td>
+<td></td>
+<td>30</td>
+<td>org.TestBase.Bulkupload_TC@35dab4eb</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.addRecord()'><b>addRecord</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>27</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ModelManagement.editModel()'><b>editModel</b><br>Test class: org.TestBase.ModelManagement</td>
+<td></td>
+<td>5</td>
+<td>org.TestBase.ModelManagement@33065d67</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateDNPricing()'><b>updateDNPricing</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>43</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updatePartWithoutChange()'><b>updatePartWithoutChange</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>26</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateBasePrice()'><b>updateBasePrice</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>47</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.Bulkupload_TC.statusView()'><b>statusView</b><br>Test class: org.TestBase.Bulkupload_TC</td>
+<td></td>
+<td>27</td>
+<td>org.TestBase.Bulkupload_TC@35dab4eb</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updatePart()'><b>updatePart</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>31</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.EntityManagement.editEntity()'><b>editEntity</b><br>Test class: org.TestBase.EntityManagement</td>
+<td></td>
+<td>5</td>
+<td>org.TestBase.EntityManagement@28261e8e</td></tr>
+<tr>
+<td title='org.TestBase.ModelManagement.modelCreation()'><b>modelCreation</b><br>Test class: org.TestBase.ModelManagement</td>
+<td></td>
+<td>6</td>
+<td>org.TestBase.ModelManagement@33065d67</td></tr>
+<tr>
+<td title='org.TestBase.EntityManagement.modelCreation()'><b>modelCreation</b><br>Test class: org.TestBase.EntityManagement</td>
+<td></td>
+<td>13</td>
+<td>org.TestBase.EntityManagement@28261e8e</td></tr>
+<tr>
+<td title='org.TestBase.ModelManagement.deleteModel()'><b>deleteModel</b><br>Test class: org.TestBase.ModelManagement</td>
+<td></td>
+<td>2</td>
+<td>org.TestBase.ModelManagement@33065d67</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.updateSegmentWithoutChange()'><b>updateSegmentWithoutChange</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>37</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.ExplorerPageTest.deleteRecord()'><b>deleteRecord</b><br>Test class: org.TestBase.ExplorerPageTest</td>
+<td></td>
+<td>38</td>
+<td>org.TestBase.ExplorerPageTest@8519cb4</td></tr>
+<tr>
+<td title='org.TestBase.Bulkupload_TC.bulkuploaddownload()'><b>bulkuploaddownload</b><br>Test class: org.TestBase.Bulkupload_TC</td>
+<td></td>
+<td>21</td>
+<td>org.TestBase.Bulkupload_TC@35dab4eb</td></tr>
+</table><p>
+</body>
+</html>
